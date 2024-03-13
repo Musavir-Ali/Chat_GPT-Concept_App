@@ -1,4 +1,3 @@
-import 'package:chat_gpt/Create_account.dart';
 import 'package:chat_gpt/Welcome_Screen.dart';
 import 'package:flutter/material.dart';
 

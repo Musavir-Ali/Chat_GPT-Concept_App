@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:chat_gpt/details.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Create_Account extends StatefulWidget {
   const Create_Account({super.key});
@@ -123,7 +123,7 @@ class _Create_AccountState extends State<Create_Account> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const Create_Account()),
+                            builder: (context) => const Details()),
                       );
                     },
                     child: const Text(
